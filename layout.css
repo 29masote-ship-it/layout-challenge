@@ -1,0 +1,67 @@
+body {
+	font-family: sans-serif;
+}
+
+header {
+	color: white;
+	text-align: center;
+	margin: 0%; 
+}
+
+.star-bg{
+	background-image: url(images/stars.jpg);
+}
+
+nav{ 
+	background-color: darkcyan;
+	float: left;
+	text-align: left;
+	margin-top: 0px;
+	padding-right: 20%;
+	padding-bottom: 7%;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+	text-align: left;
+}
+
+.sect1 {
+	margin-left: 300px;
+	display: block;
+	padding-left: 20px
+}
+
+.sect2 {
+	background-color: lightblue;
+	margin-top: 15px;
+} 
+
+footer {
+	background-color: darkblue;
+	color: white;
+	padding: 1%;
+	text-align: center;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 5fr 5fr 5fr;
+	height: 15vh;
+}
+
+.samp1 {
+	
+}
